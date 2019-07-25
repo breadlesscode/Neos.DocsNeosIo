@@ -26,3 +26,18 @@ Neos:
           Neos.DocsNeosIo:
             - Main
             - 'NodeTypes/*'
+
+
+  EventSourcedContentRepository:
+    contentDimensions:
+      language:
+        label: 'Languages'
+        icon: icon-language
+        defaultValue: en
+        resolution:
+          mode: 'uriPathSegment'
+        values:
+          en:
+            label: 'English'
+            resolution:
+              value: en
