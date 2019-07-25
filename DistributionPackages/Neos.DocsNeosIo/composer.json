@@ -4,8 +4,7 @@
     "type": "neos-site",
     "require": {
         "neos/neos": "~4.2",
-        "neos/neos-ui": "^3.1",
-        "neos/neos-ui-compiled": "^3.1",
+        "neos/neos-ui": "*",
         "neos/fusion-afx": "~1.0",
         "neos/googleanalytics": "^2.0",
         "neos/redirecthandler-ui": "^1.1",

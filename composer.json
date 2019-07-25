@@ -9,15 +9,29 @@
             "php": "7.2"
         }
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
+        "neos/neos-development-collection": "4.3.x-dev",
+        "neos/flow-development-collection": "5.3.x-dev",
+        "neos/contentrepository-development-collection": "dev-master",
+        "neos/content-repository-dimensionspace": "dev-master",
+        "neos/event-sourcing": "dev-master",
+        "neos/neos-ui": "dev-event-sourced-patch as dev-master",
         "neos/docs-neos-io": "@dev",
-
         "flownative/google-cloudstorage": "4.*",
         "flownative/beach-flow-companion": "1.*",
-        "rokka/imagine-vips": "^0.1",
         "yoast/yoast-seo-for-neos": "1.0.0-beta"
     },
     "repositories": {
+        "cr-dev": {
+            "type": "git",
+            "url": "https://github.com/neos/contentrepository-development-collection.git"
+        },
+        "dimensionspace": {
+            "type": "git",
+            "url": "https://github.com/neos/content-repository-dimensionspace.git"
+        },
         "distribution": {
             "type": "path",
             "url": "./DistributionPackages/*"
