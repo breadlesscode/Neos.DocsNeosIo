@@ -2,3 +2,9 @@
 # Hacky or otherwise shamefull code goes here.
 # This makes later debugging and refactoring easier.
 ##
+
+## TODO: find() action not implemented (see https://github.com/neos/contentrepository-development-collection/issues/98)
+prototype(Neos.Seo:StructuredData.Website).searchAction.targetNode = null
+
+## TODO: find() action not implemented (see https://github.com/neos/contentrepository-development-collection/issues/98)
+prototype(Carbon.IncludeAssets:Case).renderer.isContent.condition = ${true}
