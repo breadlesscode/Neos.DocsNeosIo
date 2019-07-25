@@ -11,4 +11,20 @@ prototype(Neos.Seo:StructuredData.Website) {
     ## TODO: find() action not implemented (see https://github.com/neos/contentrepository-development-collection/issues/98)
     //searchAction.targetNode = ${q(site).find('[instanceof Neos.DocsNeosIo:Document.SearchResultsPage]').get(0)}
 }
+
+
+# Carbon.IncludeAssets uses Node.context soooo often; so we manually override the styles 
+prototype(Neos.DocsNeosIo:Document.AbstractPage) {
+    head {
+        jsAndCss = Neos.Fusion:Component {
+
+            _css = Neos.Fusion:ResourceUri {
+                path = 'resource://Neos.DocsNeosIo/Public/Frontend/build/app.css'
+            }
+
+            renderer = afx`
+                <link rel="stylesheet" href={props._css} />
+            `
+        }
+    }
 }
