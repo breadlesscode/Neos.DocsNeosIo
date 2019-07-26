@@ -21,7 +21,6 @@
         "carbon/includeassets": "^3.5",
         "codeq/unicodenormalizer": "~2.1",
         "flowpack/cachebuster": "^1.0",
-        "flowpack/nodetemplates": "~1.0",
         "moc/notfound": "^3.1",
         "sitegeist/neosguidelines": "^1.2",
         "sitegeist/silhouettes": "^1.0",
@@ -29,7 +28,6 @@
         "flowpack/searchplugin": "~4.0",
         "flowpack/elasticsearch-contentrepositoryadaptor": "~4.1",
 
-        "codeq/htmlwidget" : "~1.2",
         "jonnitto/prettyembedvimeo": "~1.0",
         "jonnitto/prettyembedyoutube": "~5.0",
         "neos/nodetypes-contentreferences": "*",

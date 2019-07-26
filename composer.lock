@@ -543,52 +543,6 @@
             "time": "2019-06-07T11:24:36+00:00"
         },
         {
-            "name": "codeq/htmlwidget",
-            "version": "v1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/code-q-web-factory/neos-htmlwidget.git",
-                "reference": "92b1692a67fb2cae464e272fc01d933925b94ea2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/code-q-web-factory/neos-htmlwidget/zipball/92b1692a67fb2cae464e272fc01d933925b94ea2",
-                "reference": "92b1692a67fb2cae464e272fc01d933925b94ea2",
-                "shasum": ""
-            },
-            "require": {
-                "flowpack/nodetemplates": "~1.0 || dev-master",
-                "neos/fusion-afx": "^1.0 || dev-master",
-                "neos/neos": "~3.2 || ~4.0 || dev-master"
-            },
-            "type": "neos-package",
-            "extra": {
-                "neos": {
-                    "package-key": "CodeQ.HtmlWidget"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Roland Schütz",
-                    "email": "rs@codeq.at",
-                    "homepage": "https://codeq.at",
-                    "role": "Developer"
-                }
-            ],
-            "description": "HTML Widget for the Neos CMS",
-            "keywords": [
-                "FUSION",
-                "Neos",
-                "flow",
-                "html"
-            ],
-            "time": "2018-12-19T13:03:19+00:00"
-        },
-        {
             "name": "codeq/publishnotifier",
             "version": "v1.0.0",
             "source": {
@@ -2410,36 +2364,6 @@
             "time": "2019-02-13T18:08:21+00:00"
         },
         {
-            "name": "flowpack/nodetemplates",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Flowpack/Flowpack.NodeTemplates.git",
-                "reference": "a9bb6efdbbca4d8d1c7cda048c9a58bc9c4cb519"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Flowpack/Flowpack.NodeTemplates/zipball/a9bb6efdbbca4d8d1c7cda048c9a58bc9c4cb519",
-                "reference": "a9bb6efdbbca4d8d1c7cda048c9a58bc9c4cb519",
-                "shasum": ""
-            },
-            "require": {
-                "neos/neos-ui": "*"
-            },
-            "type": "neos-package",
-            "autoload": {
-                "psr-4": {
-                    "Flowpack\\NodeTemplates\\": "Classes/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0+"
-            ],
-            "description": "Neos package that allows to modify nodes on creation via templates.",
-            "time": "2019-04-03T11:50:06+00:00"
-        },
-        {
             "name": "flowpack/searchplugin",
             "version": "4.0.0",
             "source": {
@@ -3766,7 +3690,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/contentrepository-development-collection.git",
-                "reference": "190fa0d225d163ca07a69ddc741f7b879ac0d886"
+                "reference": "adc3aa70ac1c54a0c79393f6949e09300c849afd"
             },
             "require": {
                 "doctrine/dbal": "*",
@@ -3820,7 +3744,7 @@
                 "GPL-3.0-or-later"
             ],
             "description": "Event sourced Content Repository Neos packages in a joined repository for easier development.",
-            "time": "2019-07-26T09:26:53+00:00"
+            "time": "2019-07-26T10:55:57+00:00"
         },
         {
             "name": "neos/docs-neos-io",
@@ -3828,7 +3752,7 @@
             "dist": {
                 "type": "path",
                 "url": "./DistributionPackages/Neos.DocsNeosIo",
-                "reference": "e9e521abc672fa04b46b2afc7625e0a89ddfbce1"
+                "reference": "6eabc166c7e9b2ef419fd11c6878b0a43d497494"
             },
             "require": {
                 "aertmann/history": "~2.0",
@@ -3836,12 +3760,10 @@
                 "carbon/hyphen": "^1.1",
                 "carbon/includeassets": "^3.5",
                 "carbon/link": "^1.0",
-                "codeq/htmlwidget": "~1.2",
                 "codeq/publishnotifier": "~1.0",
                 "codeq/unicodenormalizer": "~2.1",
                 "flowpack/cachebuster": "^1.0",
                 "flowpack/elasticsearch-contentrepositoryadaptor": "~4.1",
-                "flowpack/nodetemplates": "~1.0",
                 "flowpack/searchplugin": "~4.0",
                 "jonnitto/prettyembedvimeo": "~1.0",
                 "jonnitto/prettyembedyoutube": "~5.0",
