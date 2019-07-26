@@ -225,16 +225,16 @@
         },
         {
             "name": "carbon/eel",
-            "version": "1.5.1",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CarbonPackages/Carbon.Eel.git",
-                "reference": "3892b2023255ad2b21136286ba8168c8ea6bd870"
+                "reference": "3ee68666a793f09b2cd3a80525a27c14d638ca38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CarbonPackages/Carbon.Eel/zipball/3892b2023255ad2b21136286ba8168c8ea6bd870",
-                "reference": "3892b2023255ad2b21136286ba8168c8ea6bd870",
+                "url": "https://api.github.com/repos/CarbonPackages/Carbon.Eel/zipball/3ee68666a793f09b2cd3a80525a27c14d638ca38",
+                "reference": "3ee68666a793f09b2cd3a80525a27c14d638ca38",
                 "shasum": ""
             },
             "require": {
@@ -261,9 +261,9 @@
             "authors": [
                 {
                     "name": "Jon Uhlmann",
+                    "role": "Developer",
                     "email": "me@jonnitto.ch",
-                    "homepage": "https://jonnitto.ch",
-                    "role": "Developer"
+                    "homepage": "https://jonnitto.ch"
                 }
             ],
             "description": "Some nice Eel helper for Neos.io",
@@ -274,7 +274,7 @@
                 "eel",
                 "helper"
             ],
-            "time": "2019-04-30T13:14:39+00:00"
+            "time": "2019-07-25T19:01:37+00:00"
         },
         {
             "name": "carbon/hyphen",
@@ -2781,16 +2781,16 @@
         },
         {
             "name": "google/cloud-core",
-            "version": "v1.29.0",
+            "version": "v1.30.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-cloud-php-core.git",
-                "reference": "a7b3a821be80a86a111b7a271886faf3226a277d"
+                "reference": "5158d214f100ae0413e2bc829960e92c8f38136b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-cloud-php-core/zipball/a7b3a821be80a86a111b7a271886faf3226a277d",
-                "reference": "a7b3a821be80a86a111b7a271886faf3226a277d",
+                "url": "https://api.github.com/repos/googleapis/google-cloud-php-core/zipball/5158d214f100ae0413e2bc829960e92c8f38136b",
+                "reference": "5158d214f100ae0413e2bc829960e92c8f38136b",
                 "shasum": ""
             },
             "require": {
@@ -2838,7 +2838,7 @@
                 "Apache-2.0"
             ],
             "description": "Google Cloud PHP shared dependency, providing functionality useful to all components.",
-            "time": "2019-06-27T20:27:31+00:00"
+            "time": "2019-07-25T17:46:28+00:00"
         },
         {
             "name": "google/cloud-storage",
@@ -3766,7 +3766,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/contentrepository-development-collection.git",
-                "reference": "7d7b0929345beeffc0588b29f10d0152c86aac51"
+                "reference": "190fa0d225d163ca07a69ddc741f7b879ac0d886"
             },
             "require": {
                 "doctrine/dbal": "*",
@@ -3780,7 +3780,8 @@
             "replace": {
                 "neos/contentgraph-doctrinedbaladapter": "self.version",
                 "neos/event-sourced-content-repository": "self.version",
-                "neos/event-sourced-neos-adjustments": "self.version"
+                "neos/event-sourced-neos-adjustments": "self.version",
+                "neos/eventsourcedcontentrepository-legacyapi": "self.version"
             },
             "type": "neos-package-collection",
             "extra": {
@@ -3794,6 +3795,9 @@
                     "Neos\\ContentGraph\\DoctrineDbalAdapter\\": [
                         "Neos.ContentGraph.DoctrineDbalAdapter/Classes"
                     ],
+                    "Neos\\EventSourcedContentRepository\\LegacyApi\\": [
+                        "Neos.EventSourcedContentRepository.LegacyApi/Classes"
+                    ],
                     "Neos\\EventSourcedContentRepository\\": [
                         "Neos.EventSourcedContentRepository/Classes"
                     ],
@@ -3804,6 +3808,9 @@
             },
             "autoload-dev": {
                 "psr-4": {
+                    "Neos\\EventSourcedContentRepository\\LegacyApi\\Tests\\": [
+                        "Neos.EventSourcedContentRepository.LegacyApi/Tests"
+                    ],
                     "Neos\\EventSourcedContentRepository\\Tests\\": [
                         "Neos.EventSourcedContentRepository/Tests"
                     ]
@@ -3813,7 +3820,7 @@
                 "GPL-3.0-or-later"
             ],
             "description": "Event sourced Content Repository Neos packages in a joined repository for easier development.",
-            "time": "2019-06-20T17:24:43+00:00"
+            "time": "2019-07-26T09:26:53+00:00"
         },
         {
             "name": "neos/docs-neos-io",
